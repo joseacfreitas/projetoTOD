@@ -1,0 +1,102 @@
+body {
+    top: 0;
+    left: 0;
+    margin: 0;
+    background-image: url("Img/batman1.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+form {
+    position: absolute;
+    width: 30%;
+    height: 70%;
+    top: 60%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    border-radius: 3%;
+    padding: 3%;
+    background: linear-gradient(35deg, #FFFFFF, #B0C4DE);
+    opacity: 0.8;
+}
+
+label {
+    font-size: 1.3vw;
+    font-weight: bold;
+}
+
+input {
+    background-color: GhostWhite !important;
+    font-size: 1.3vw;
+    font-weight: bold;
+}
+
+p {
+    position: relative;
+    text-align: center;
+    font-size: 2vw;
+}
+
+h5 {
+    text-align: center;
+
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Harry Potter", sans-serif;
+}
+
+button {
+    position: absolute;
+    left: 27%;
+    width: 50%;
+    border-radius: 2.5vw !important;
+    font-weight: bold;
+    font-size: 1.3vw !important;
+    color: black !important;
+    border: 0.3vw solid #817b29 !important;
+    background-color: transparent !important;
+}
+
+button:hover {
+    color: white !important;
+    border: 0.2vw solid #817b29 !important;
+    background-color: #817b29 !important;
+    font-size: 1.5vw !important;
+    font-family: "Harry Potter", sans-serif;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.logo_ {
+    position: absolute;
+    top: -7%;
+    left: 17%;
+    width: 35%;
+    height: 40%;
+}
+
+a {
+    position: absolute;
+    font-size: 1vw;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 0.5vw;
+    border-radius: 5px;
+    margin: 1.2vw;
+}
+
+a:hover {
+    color: white;
+    border: 0.2vw solid #817b29;
+    font-size: 1.3vw;
+    font-family: "Harry Potter", sans-serif;
+}

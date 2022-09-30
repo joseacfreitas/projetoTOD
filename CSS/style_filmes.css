@@ -1,0 +1,239 @@
+body {
+    top: 0;
+    left: 0;
+    margin: 0;
+    background-image: url("Img/filmes.jpg");
+    background-color: black;
+    text-align: center;
+}
+
+.table {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    background-color: hsl(69, 33%, 71%);
+    width: 89%;
+    font-size: 1.3vw;
+    color: black;
+    box-shadow: 0.2vw 1vw 1.3vw 2vw rgba(0, 0, 0, 0.7);
+    opacity: 0.9;
+}
+
+thead {
+
+    background-color: hsl(69, 33%, 41%);
+    font-size: 1.7vw;
+    font-weight: bold;
+    color: white !important;
+    text-shadow: 0.3vw 0.2vw black;
+
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.page-link {
+    position: relative;
+    left: 15em;
+    top: 13%;
+    border: 0.3vw solid #817b29;
+    border-radius: 0.4vw;
+    font-size: 1.1vw;
+    font-weight: bold;
+    color: white !important;
+    margin-left: 1.5vw !important;
+    background-color: black !important;
+}
+
+.page-link:hover {
+    background-color: #817b29 !important;
+    border: 0.3vw solid #817b29;
+}
+
+#navb {
+    position: absolute !important;
+    top: 0 !important;
+    width: 100%;
+    height: 10%;
+    background-color: black !important;
+    padding: 1vw !important;
+}
+
+.logo_ {
+    position: absolute;
+    left: -3%;
+    width: 20%;
+    height: 300%;
+    padding: 2%;
+}
+
+.bvin {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    color: ghostwhite;
+    text-shadow: 0.5vw 0.5vw 0.5vw black;
+    font-style: italic;
+    font-family: "Harry Potter", sans-serif;
+
+}
+
+.bvin h2 {
+    position: relative;
+    margin-top: 1%;
+    font-size: 3vw;
+}
+
+#embed {
+    position: fixed;
+    top: 5vw;
+    left: 0%;
+    background-color: black;
+    width: 15vw;
+    height: 15vh;
+    box-shadow: 0.2vw 1vw 1.3vw 1vw rgba(0, 0, 0, 0.6);
+}
+
+#embed1 {
+    position: fixed;
+    top: 5vw;
+    left: 85%;
+    background-color: black;
+    width: 15vw;
+    height: 15vh;
+    box-shadow: 0.1vw 1vw 1.3vw 1vw rgba(0, 0, 0, 0.6);
+}
+
+#pag {
+    position: absolute;
+    top: 90%;
+    left: 10%;
+}
+
+#input {
+    background-color: black !important;
+}
+
+.modal-title {
+    text-align: center !important;
+}
+
+.nav-link {
+    position: relative;
+    top: 10%;
+    left: 87%;
+    width: 12vw;
+    padding: 0.3vw;
+    border-radius: 2.5vw;
+    border: 0.2vw solid #817b29;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 1.2vw;
+    margin: 1vw;
+    color: white !important;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    transition: 0.1s linear;
+    background-color: #817b29;
+}
+
+#sair {
+    position: absolute;
+    top: 10%;
+    left: 127%;
+    width: 12vw;
+    padding: 0.4vw;
+    border-radius: 2.5vw;
+    border: 0.2vw solid #817b29;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 1vw;
+    margin: 1vw;
+    color: white !important;
+    text-decoration: none;
+}
+
+#sair:hover {
+    transition: 0.1s linear;
+    background-color: red;
+
+}
+
+.modal-content {
+    position: relative;
+    top: -1.3vw;
+    padding: 3%;
+    background-color: hsl(69, 33%, 41%);
+    box-shadow: 0.2vw 1vw 1.3vw 1vw rgba(0, 0, 0, 0.6);
+    opacity: 0.9;
+}
+
+.modal-header {
+    position: relative;
+    top: 2%;
+    justify-content: center;
+}
+
+.close {
+    position: relative;
+    width: 7%;
+    left: 25% !important;
+    border: none;
+    background-color: hsl(39, 53%, 61%);
+}
+
+.close:hover {
+    color: white;
+    background-color: #817b29;
+}
+
+.form-group {
+    text-align: left;
+    font-size: 1.5vw;
+}
+
+.form-control {
+    background-color: hsl(69, 33%, 71%);
+    font-size: 1.1vw;
+}
+
+ul {
+    position: relative;
+    top: 20% !important;
+    display: flex;
+}
+
+.btn1 {
+    background-color: hsl(39, 53%, 61%);
+    color: black;
+    border: none;
+    width: 30%;
+}
+
+.btn1:hover {
+    color: white;
+    background-color: #817b29;
+}
+
+.caixa_relogio {
+    position: absolute;
+    top: 1.5vw;
+    left: 57em;
+    display: flex;
+    color: #817b29;
+    font-size: 1.6vw;
+}
